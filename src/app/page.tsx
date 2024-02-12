@@ -12,7 +12,7 @@ export default function Home() {
       </section>
       <article>
       <p className="text-white text-sm sm:text-md mb-3 sm:mb-5 tracking-wide">
-      I'm a Software Engineer Frontend specializing in web development technologies, using popular tools like <span className="font-bold">TypeScript</span> for programming, <span className="font-bold">NextJS</span> for the framework, and <span className="font-bold">TailwindCSS</span> for styling.
+      I&apos;m a Software Engineer Frontend specializing in web development technologies, using popular tools like <span className="font-bold">TypeScript</span> for programming, <span className="font-bold">NextJS</span> for the framework, and <span className="font-bold">TailwindCSS</span> for styling.
       </p>
       <p className="text-white text-sm sm:text-md mb-3 sm:mb-5 tracking-wide">
        I possess a fervent enthusiasm for designing User Interfaces across Web, Desktop, and Mobile platforms, with a particular proficiency in utilizing tools such as <span className="font-bold">Figma</span>.
