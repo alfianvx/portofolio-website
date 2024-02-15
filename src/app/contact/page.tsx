@@ -1,3 +1,4 @@
+import { Socials } from "@/static";
 import Link from "next/link";
 
 const Contact = () => {
@@ -8,26 +9,13 @@ const Contact = () => {
         No need to shy, get in touch with me with link bellow:
       </p>
       <ul className="space-y-2 list-disc pl-4">
-        <li>
-          <Link href={""} className="hover:underline">
-            Github
-          </Link>
-        </li>
-        <li>
-          <Link href={""} className="hover:underline">
-            Telegram
-          </Link>
-        </li>
-        <li>
-          <Link href={""} className="hover:underline">
-            Linkedin
-          </Link>
-        </li>
-        <li>
-          <Link href={""} className="hover:underline">
-            Email
-          </Link>
-        </li>
+        {Socials.map(({ label, link }) => (
+          <li key={label}>
+            <Link target="_blank" href={link} className="hover:underline">
+              {label}
+            </Link>
+          </li>
+        ))}
       </ul>
     </main>
   );
