@@ -17,6 +17,25 @@ export const NavLink = [
   },
 ];
 
+export const Socials = [
+  {
+    label: "Github",
+    link: "https://github.com/alfianvx",
+  },
+  {
+    label: "Telegram",
+    link: "https://t.me/@alfianvx",
+  },
+  {
+    label: "Linkedin",
+    link: "https://www.linkedin.com/in/gusjabungaf/",
+  },
+  {
+    label: "Email",
+    link: "mailto:gusjabungaf@gmail.com",
+  },
+];
+
 export const MyProjects = [
   {
     title: "Body Mass Idex Calculator",
@@ -30,7 +49,7 @@ export const MyProjects = [
     title: "React Todos",
     link: "https://react-thodos.vercel.app/",
     description: "Track activity for productive day",
-    tech: ["React", "TailwindCSS", "Redux"],
+    tech: ["React", "TailwindCSS", "Redux", "MockAPI"],
     repo: "",
     image: "/works/Todo.png",
   },
