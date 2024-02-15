@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Kantumruy_Pro } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Kantumruy_Pro({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Gus Jabung Al Fiansyah — Software Engineer Frontend",
