@@ -5,7 +5,7 @@ import { FileTextIcon } from "@radix-ui/react-icons";
 
 export default function Home() {
   return (
-    <main className="max-w-2xl mx-auto min-h-screen pt-32 px-4 md:px-0">
+    <main className="max-w-2xl mx-auto min-h-screen flex flex-col items-center justify-center px-4 md:px-0">
       <section className="flex flex-col sm:flex-row space-x-0 space-y-5 sm:space-x-5 sm:space-y-0 mb-6">
         <div>
           <Image
@@ -16,8 +16,8 @@ export default function Home() {
             className="rounded-full mb-4 shadow shadow-xl"
           />
           <h1 className="text-xl text-wrap md:text-2xl md:text-balance font-medium mb-6">
-            hello there! I&apos;m Gus Jabung Al Fiansyah, software engineer
-            frontend & web designer.
+            hello 👋 I&apos;m Gus Jabung Al Fiansyah, software engineer frontend
+            & web designer.
           </h1>
           <p className="text-sm mb-4">
             Currently —{" "}
