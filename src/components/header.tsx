@@ -4,9 +4,11 @@ import Link from "next/link";
 import { NavLink } from "@/static";
 import { useWindowYAxis } from "@/hooks/use-win-y-axis";
 import ThemeToggle from "@/components/theme-toggle";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const y = useWindowYAxis();
+  const path = usePathname();
 
   return (
     <header
@@ -20,7 +22,9 @@ const Header = () => {
             <Link
               key={label}
               href={link}
-              className="font-medium hover:underline"
+              className={`font-medium hover:underline ${
+                path === link && "underline"
+              }`}
             >
               {label}
             </Link>
