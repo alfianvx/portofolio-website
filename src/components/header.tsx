@@ -17,7 +17,11 @@ const Header = () => {
       <div className="max-w-2xl flex items-center justify-between mx-auto py-4">
         <nav className="flex space-x-3">
           {NavLink.map(({ label, link }) => (
-            <Link key={label} href={link} className="font-medium">
+            <Link
+              key={label}
+              href={link}
+              className="font-medium hover:underline"
+            >
               {label}
             </Link>
           ))}
